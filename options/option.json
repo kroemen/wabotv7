@@ -4,7 +4,8 @@
     "BarBarKey": "YOUR_APIKEY",
     "ownerNumbers": "6283873394995@s.whatsapp.net",
     "languages": "ind",
-    "botPrefix": ".",
+    "botPrefix": "#",
     "memberLimitss": "10",
     "userDefaultLimit": "30"
 }
+
