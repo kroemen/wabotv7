@@ -73,7 +73,6 @@ const setiker = JSON.parse(fs.readFileSync('./database/json/stik.json'))
 const videonye = JSON.parse(fs.readFileSync('./database/json/video.json'))
 const audionye = JSON.parse(fs.readFileSync('./database/json/audio.json'))
 const imagenye = JSON.parse(fs.readFileSync('./database/json/image.json'))
-
 // Load options file
 const option = JSON.parse(fs.readFileSync('./options/option.json'))
 const { ind } = require('./options/language')
@@ -114,7 +113,7 @@ const { tod } = require('./database/menu/tod')
 const { wibu } = require('./database/menu/wibu')
 const { xp } = require('./database/menu/xp')
 const { limit } = require('./database/menu/limit')
-
+const { getm } = require('./database/menu/get')
 // Load Vcard Contact
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
@@ -417,7 +416,7 @@ async function starts() {
                                         ownerG: `[❗] Perintah ini hanya bisa di gunakan oleh owner group! ❌`,
                         	        admin: `[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌`,
                                         Badmin: `[❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌`,
-                                        daftarB: `──「 BELUM REGISTER 」──\nHalo kak!\nKamu belum Register nih, register dulu yuk... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Zaki|15`,
+                                        daftarB: `Hai, Ketik *${prefix}verify* untuk memulai menggunakan bot`,
                                 }
                         }
                 	const apakah = ['Ya','hTidak']
@@ -679,7 +678,7 @@ async function starts() {
    if (budy.match('@6283873394995')){costum('Itu Owner Gua mau ngapain lu', text, tescuk, cr2)
    }
    if (budy.match('bot')){
-     var hm =fs.readFileSync('./assets/onichan.mp3') 
+     var hm =fs.readFileSync('./temp/audio/onichan.mp3') 
      nzwa.sendMessage(from, hm, audio, {mimetype: 'audio/mp4', filename: 'onichan.mp3', quoted: mek, ptt: true})
    }
    if (budy.match('Asalamualaikum')){
@@ -691,20 +690,6 @@ async function starts() {
    if (budy.match('bernyanyi')){
      var hm =fs.readFileSync('./assets/bernyanyi.mp3') 
      nzwa.sendMessage(from, hm, audio, {mimetype: 'audio/mp4', filename: 'bernyanyi.mp3', quoted: mek, ptt: true})
-     
-     case '.menu':
-case '.help':
-case '!help':
-case '!menu':
-case '/menu':
-case '/help':
-case 'help':
-case 'menu':
-hasil = `        ────────────────
-Hei *${pushname}* coba ketik ${prefix}menu
-        ────────────────`
-reply(hasil)
-        break
    }
 			switch(command) {
 			                  case 'menu':
@@ -716,7 +701,7 @@ reply(hasil)
                       const getruntime = kyun(uptime)
                      const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 			                const uangku = checkATMuser(sender)
-                                        await costum(help(pushname, prefix, botName, ownerName, reqXp, uangku, _registered, role, time, date, timi, getruntime), text, tescuk, cr)
+                                        await costum(help(pushname, prefix, botName, ownerName, uangku, _registered, role, time, date, totalchat, getruntime, reqXp), text, tescuk, cr)
                                         break
                                 case '18+menu':
                                         if (!isRegister) return reply(mess.only.daftarB)
@@ -803,7 +788,7 @@ reply(hasil)
 
                                         if (!isRegister) return reply(mess.only.daftarB)
 
-                                        await costum(getmenu(prefix, botName, ownerName, _registered, time), text, tescuk, cr)
+                                        await costum(getm(prefix, botName, ownerName, _registered, time), text, tescuk, cr)
                                         break
                                 case 'wibumenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
@@ -1911,18 +1896,16 @@ break
 					nzwa.sendMessage(from, `Sukses Menambahkan Audio\nCek dengan cara ${prefix}listvn`, MessageType.text, { quoted: mek })
 					break
 					case 'delvn':
-
 				if (!isOwner) return reply(mess.only.ownerB)
-
 				if (!isRegister) return reply(mess.only.daftarB) 
-					svst = body.push(7)
+					svst = body.slice(7)
 					if (!svst) return reply('Nama audionya apa kak?')
-					boij = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
-					delb = await nzwa.downloadMediaMessage(boij)
-					audionye.push(`${svst}`)
+					boij = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage
+					delb = await nzwa.deleteMessage(boij)
+					audionye.splice(`${svst}`)
 					fs.writeFileSync(`./temp/audio/${svst}.mp3`, delb)
 					fs.writeFileSync('./database/json/audio.json', JSON.stringify(audionye))
-					nzwa.sendMessage(from, `Sukses Menghapus Audio\nCek dengan cara ${prefix}listvn`, MessageType.text, { quoted: mek })
+					nzwa.sendMessage(from, `Sukses Menambahkan Audio\nCek dengan cara ${prefix}listvn`, MessageType.text, { quoted: mek })
 					break
 				case 'getvn':
 				if (!isRegister) return reply(mess.only.daftarB)  
@@ -1963,7 +1946,7 @@ break
 					boij = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
 					delb = await nzwa.downloadMediaMessage(boij)
 					imagenye.push(`${svst}`)
-					fs.writeFileSync(`./temp/image/${svst}.jpeg`, delb)
+					fs.writeFileSync(`./assets/${svst}.jpeg`, delb)
 					fs.writeFileSync('./database/json/image.json', JSON.stringify(imagenye))
 					nzwa.sendMessage(from, `Sukses Menambahkan Image\nCek dengan cara ${prefix}listimage`, MessageType.text, { quoted: mek })
 					break
@@ -1983,7 +1966,7 @@ break
 				}
 					namastc = body.slice(12)
 					try {
-					buffer = fs.readFileSync(`./temp/image/${namastc}.jpeg`)
+					buffer = fs.readFileSync(`./assets/${namastc}.jpeg`)
 					nzwa.sendMessage(from, buffer, image, cuk, { quoted: mek, caption: `Result From Database : ${namastc}.jpeg` })
 					} catch {
 				  reply('Pack tidak terdaftar')
@@ -2177,9 +2160,8 @@ quoted: mek, caption: `Wah ganteng kek gua`
                       if (!isRegister) return reply(mess.only.daftarB)
                       if (isLimit(sender)) return reply(ind.limitend(pusname))
                       gh = body.slice(11)
-                      gl1 = gh.split("|")[0];
                       reply(mess.wait)
-                      anu = await fetchJson(`https://api.zeks.xyz/api/cslogo?text=${gh1}&apikey=apivinz`, {method: 'get'})
+                      anu = await fetchJson(`https://api.zeks.xyz/api/cslogo?text=${gh}&apikey=apivinz`, {method: 'get'})
                       buff = await getBuffer(anu.result)
                       nzwa.sendMessage(from, buff, image, {quoted: mek})
                       await limitAdd(sender)
