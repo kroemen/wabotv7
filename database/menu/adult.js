@@ -1,4 +1,4 @@
-const downloader = (prefix, botName, ownerName, _registered, time) => {
+const adult = (prefix, botName, ownerName, _registered, time) => {
 	return `
 ╔══✪〘 INFO BOT〙✪══════
 ╠➥ *Name bot : ${botName}
