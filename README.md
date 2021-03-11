@@ -1,19 +1,19 @@
-### Hai Gua Zaki <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="27px">
+### Hai Gua Zaki Sc ini Hasil Remake Bukan Buat Sendiri<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="27px">
 <p align="center">
-<a href="https://github.com/NazwaS"><img src="https://raw.githubusercontent.com/NazwaS/NazwaS/main/img/Nazwa.jpg"></a>
+<a href="https://github.com/Ahmadzakix"><img src="https://raw.githubusercontent.com/NazwaS/NazwaS/main/img/Nazwa.jpg"></a>
 </p>
 <br>
 
 
 
 <p align="center">
-<a href="#"><img title="termux-whatsapp-bot" src="https://img.shields.io/badge/-TERMUX--WHATSAPP--BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="HLXBOT" src="https://img.shields.io/badge/-HLX--BOT-orange?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/NazwaS"><img title="Author" src="https://img.shields.io/badge/AUTHOR-NAZWAS-orange?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Ahmadzakix"><img title="Author" src="https://img.shields.io/badge/AUTHOR-NAZWAS-orange?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-    <a href="https://github.com/NazwaS/followers"><img title="Followers" src="https://img.shields.io/github/followers/NazwaS?style=flat-square"></a>
+    <a href="https://github.com/Ahmadzakix/followers"><img title="Followers" src="https://img.shields.io/github/followers/NazwaS?style=flat-square"></a>
     <a href="https://github.com/Ahmadzakix/wabotv7/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Ahmadzakix/wabotv7?style=flat-square"></a>
     <a href="https://github.com/Ahmadzakix/wabotv7/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Ahmadzakix/wabotv7?style=flat-square"></a>
     <a href="https://github.com/Ahmadzakix/wabotv7/watchers"><img title="watchers" src="https://img.shields.io/github/watchers/Ahmadzakix/wabotv7?style=flat-square"></a>
