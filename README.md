@@ -1,6 +1,6 @@
-### Hai Gua Zaki Sc ini Hasil Remake Bukan Buat Sendiri<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="27px">
+### Hai Gua Zaki <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="27px">
 <p align="center">
-<a href="https://github.com/Ahmadzakix"><img src="https://github.com/Ahmadzakix/Ahmadzaki/blob/main/IMG_20210311_145621.jpg"></a>
+<a href="https://github.com/Ahmadzakix"><img src="https://github.com/Ahmadzakix/Ahmadzaki/blob/main/%2B44%207537%20127631%2020210307_185933.jpg"></a>
 </p>
 <br>
 
@@ -395,7 +395,7 @@ Follow The Steps Below!
 
 * <a href="https://github.com/adiwajshing/Baileys"><img alt="GitHub" src="https://img.shields.io/badge/adiwajshing/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
 * <a href="https://github.com/mhankbarbar"><img alt="GitHub" src="https://img.shields.io/badge/MhankBarBar%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
-* * <a href="https://github.com/NazwaS/termux-bot-wa"><img alt="GitHub" src="https://img.shields.io/badge/adiwajshing/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
+* * <a href="https://github.com/NazwaS"><img alt="GitHub" src="https://img.shields.io/badge/NazwaS%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
 * <a href="https://github.com/Nurutomo"><img alt="GitHub" src="https://img.shields.io/badge/Nurutomo%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
 * <a href="https://github.com/TobyG74"><img alt="GitHub" src="https://img.shields.io/badge/TobyG74%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
 * <a href="https://github.com/ArugaZ"><img alt="GitHub" src="https://img.shields.io/badge/ArugaZ%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
