@@ -382,20 +382,14 @@ Follow The Steps Below!
 | Afk|✅|
 | Timer|✅|
 
----
-
-<img src="http://4.bp.blogspot.com/-XFYyg7bmXe0/UIU9Lt2jaNI/AAAAAAAABw8/UgxWDUoBkaw/s1600/tumblr_mbi70xxizM1r922azo1_500_large.gif">
-
----
-
 ## Group
-* <a href="https://chat.whatsapp.com/EiTttieeSNX9GEXjY74Dr2"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://chat.whatsapp.com/JY4hngGAxT7A3DgyrxeKtx"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 ## Special Thanks To
 
 * <a href="https://github.com/adiwajshing/Baileys"><img alt="GitHub" src="https://img.shields.io/badge/adiwajshing/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
 * <a href="https://github.com/mhankbarbar"><img alt="GitHub" src="https://img.shields.io/badge/MhankBarBar%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
-* * <a href="https://github.com/NazwaS"><img alt="GitHub" src="https://img.shields.io/badge/NazwaS%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
+* <a href="https://github.com/NazwaS"><img alt="GitHub" src="https://img.shields.io/badge/NazwaS%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
 * <a href="https://github.com/Nurutomo"><img alt="GitHub" src="https://img.shields.io/badge/Nurutomo%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
 * <a href="https://github.com/TobyG74"><img alt="GitHub" src="https://img.shields.io/badge/TobyG74%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
 * <a href="https://github.com/ArugaZ"><img alt="GitHub" src="https://img.shields.io/badge/ArugaZ%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></a>
