@@ -27,7 +27,7 @@
 </p>
 <div align="center">
 <details>
- <summary>🍙 Help me!</summary>
+ <summary>Donate Me For Support!</summary>
  
  [Saweria](https://saweria.co/nazwas)
 
@@ -37,7 +37,11 @@
 </div>
 
 ## Made With 💜 By
+<a href="https://github.com/Ahmadzakix"><img src="https://github.com/Ahmadzakix/Ahmadzaki/blob/main/IMG_20210311_145621.jpg"></a>
 
+</p>
+
+<br>
 
 ## Tools
 
