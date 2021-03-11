@@ -1,6 +1,6 @@
 ### Hai Gua Zaki Sc ini Hasil Remake Bukan Buat Sendiri<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="27px">
 <p align="center">
-<a href="https://github.com/Ahmadzakix"><img src="https://raw.githubusercontent.com/NazwaS/NazwaS/main/img/Nazwa.jpg"></a>
+<a href="https://github.com/Ahmadzakix"><img src="https://github.com/Ahmadzakix/Ahmadzaki/blob/main/FB_IMG_16023402159548044.jpg"></a>
 </p>
 <br>
 
