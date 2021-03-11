@@ -7,7 +7,7 @@
 
 
 <p align="center">
-<a href="#"><img title="HLXBOT" src="https://img.shields.io/badge/-HLX--BOT-orange?colorB=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="HLXBOT" src="https://img.shields.io/badge/HLX--BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Ahmadzakix"><img title="Author" src="https://img.shields.io/badge/AUTHOR-AHMADZAKI-orange?style=for-the-badge&logo=github"></a>
@@ -36,7 +36,7 @@
 </details>
 </div>
 
-## Made With 💜 By
+## Made With  By AhmadZaki
 <a href="https://github.com/Ahmadzakix"><img src="https://github.com/Ahmadzakix/Ahmadzaki/blob/main/IMG_20210311_145621.jpg"></a>
 
 </p>
