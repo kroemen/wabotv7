@@ -1,13 +1,13 @@
 ### Hai Gua Zaki Sc ini Hasil Remake Bukan Buat Sendiri<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="27px">
 <p align="center">
-<a href="https://github.com/Ahmadzakix"><img src="https://github.com/Ahmadzakix/Ahmadzaki/blob/main/FB_IMG_16023402159548044.jpg"></a>
+<a href="https://github.com/Ahmadzakix"><img src="https://github.com/Ahmadzakix/Ahmadzaki/blob/main/IMG_20210311_145621.jpg"></a>
 </p>
 <br>
 
 
 
 <p align="center">
-<a href="#"><img title="HLXBOT" src="https://img.shields.io/badge/-HLX--BOT-orange?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="HLXBOT" src="https://img.shields.io/badge/-HLX--BOT-orange?colorB=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Ahmadzakix"><img title="Author" src="https://img.shields.io/badge/AUTHOR-AHMADZAKI-range?style=for-the-badge&logo=github"></a>
