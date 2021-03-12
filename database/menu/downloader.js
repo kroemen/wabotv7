@@ -1,10 +1,10 @@
 const downloader = (prefix, botName, ownerName, _registered, time) => {
 	return `
 ╔══✪〘 INFO BOT〙✪══════
-╠➥ *Name bot : ${botName}
+╠➥ *Name bot : ${botName}*
 ╠➥ *Owner : ${ownerName}*
-╠➥ *Total Pengguna Terdaftar : ${_registered.length}
-╠➥ *Time : ${time}
+╠➥ *Total Pengguna Terdaftar : ${_registered.length}*
+╠➥ *Time : ${time}*
 ╠═════════════════════
 ║  *〘 DOWNLOADER  〙*
 ╠═════════════════════
