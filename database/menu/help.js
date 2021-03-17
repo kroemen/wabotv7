@@ -1,6 +1,5 @@
 const help = (pushname, prefix, botName, ownerName, uangku, _registered, role, time, date, totalchat, getruntime, reqXp) => {
-        return `
-Official Grup : https://chat.whatsapp.com/JY4hngGAxT7A3DgyrxeKtx
+        return`
 ╔══✪〘 INFO  USER 〙✪════
 ╠➥ *Name : ${pushname}*
 ╠➥ *Role : ${role}*
